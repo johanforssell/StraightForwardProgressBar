@@ -43,7 +43,6 @@
 		98A8846F2E714D0D9691E4E5 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BE20632F124ABEB6BE6B88 /* StraightForwardProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StraightForwardProgressBar.podspec; path = ../StraightForwardProgressBar.podspec; sourceTree = "<group>"; };
 		B9579E94858F42D5B7D02DDD /* libPods-StraightForwardProgressBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StraightForwardProgressBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E13DE65698F2411F96517774 /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +68,6 @@
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				3B8839CFE9B9453B916E6CEC /* Pods-StraightForwardProgressBar.xcconfig */,
-				E13DE65698F2411F96517774 /* Pods-Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};

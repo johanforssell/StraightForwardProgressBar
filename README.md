@@ -9,14 +9,25 @@ Either use the `progressObject` or the `progress` property to keep track of prog
 
 ## Installation
 
-StraightForwardProgressBar is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+StraightForwardProgressBar is available through [CocoaPods](http://cocoapods.org). 
+
+*I've not added it to the official cocoapods repo just yet*.
+
+To install it, simply add the following line to your Podfile:
 
     pod "StraightForwardProgressBar", :git => 'https://github.com/johanforssell/StraightForwardProgressBar.git'
 
+To try the demo you can download the project and run
+
+    pod install
+
+in the folder
+
+    StraightForwardProgressBar/Example
+
 ## Author
 
-Johan Forssell, johan@forssell.me, @jforssell
+Johan Forssell (johan@forssell.me, @jforssell)
 
 ## License
 

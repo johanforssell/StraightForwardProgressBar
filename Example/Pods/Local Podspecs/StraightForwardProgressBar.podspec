@@ -9,28 +9,21 @@
 
 Pod::Spec.new do |s|
   s.name             = "StraightForwardProgressBar"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of StraightForwardProgressBar."
+  s.version          = "0.1"
+  s.summary          = "Just a bar of color to indicate progress"
   s.description      = <<-DESC
-                       An optional longer description of StraightForwardProgressBar
+                        View controller which is a progress bar.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        Can use a NSProgress object or just a property.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/StraightForwardProgressBar"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/johanforssell/StraightForwardProgressBar"
   s.license          = 'MIT'
   s.author           = { "Johan Forssell" => "johan.forssell@dohi.se" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/StraightForwardProgressBar.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/johanforssell/StraightForwardProgressBar.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/jforssell'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
